@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      @mixin button-styles {
+        border: 1px solid #ccc;
+        padding: 10px 20px;
+        background-color: #f0f0f0;
+        color: #333;
+        text-decoration: none;
+      }
+
+      .primary-button {
+        @include button-styles;
+        background-color: #007bff;
+        color: #fff;
+      }
+    </style>
+    <title>Button styles</title>
+  </head>
+  <body>
+    <button class="primary-button">Primary Button</button>
+  </body>
+</html>
